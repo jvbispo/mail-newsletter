@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  height: 100vh;
+  background: #f2f2f2;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+body,
+input,
+button {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+span,
+p,
+strong {
+  font-family: "Roboto", sans-serif;
+  color: #312e38;
+}
+
+
+#root, .App {
+    height: 100%;
+    width: 100%;
+}
