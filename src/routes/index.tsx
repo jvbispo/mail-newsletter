@@ -1,8 +1,9 @@
 
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home } from '../pages/Home';
-import { StoriesList } from '../pages/StoriesList';
+import { HomePage } from '../pages/Home';
+import { StoriesListPage } from '../pages/StoriesList';
+import { StoryPage } from '../pages/Story';
 
 
 
@@ -10,8 +11,9 @@ import { StoriesList } from '../pages/StoriesList';
 const Routes: React.FC = () => {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
-      <Route path="/admin/stories" exact component={StoriesList} />
+      <Route path="/" exact component={HomePage} />
+      <Route path="/admin/stories" exact component={StoriesListPage} />
+      <Route path="/admin/story/:id" exact component={StoryPage} />
     </Switch>
   );
 };

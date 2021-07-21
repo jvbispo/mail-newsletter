@@ -1,9 +1,8 @@
 import { Add } from "@material-ui/icons";
-import { useCallback } from "react";
 import { Link } from "react-router-dom";
 import "./styles.scss";
 
-const StoriesList = () => {
+const StoriesListPage = () => {
 
 
   return (
@@ -66,11 +65,11 @@ const StoriesList = () => {
         </li>
       </ul>
 
-      <Link type="button" to="/story/new" className="add-button">
+      <Link type="button" to="admin/story/new" className="add-button">
         <Add />
       </Link>
     </div>
   );
 };
 
-export { StoriesList };
+export { StoriesListPage };

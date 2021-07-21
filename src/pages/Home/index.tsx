@@ -1,7 +1,7 @@
 import './styles.scss';
 
 
-const Home = () => {
+const HomePage = () => {
 
     return (
         <h1>Teste</h1>
@@ -10,4 +10,4 @@ const Home = () => {
 
 
 
-export {Home};
+export {HomePage};
